@@ -39,12 +39,12 @@
                         easier to remember from the wallet settings page. If you lose it, it can be recovered if you have access to the email
                         address you have registered with. The wallet under this identifier is stored at our servers encrypted with your password,
                         the one you used to register. If you forget that password you won't be able to decrypt your wallet and as we don't know your password
-                        we won't be able to recover it either. <strong>But</strong> there is another security measure you can take. 
+                        we won't be able to recover it either. <strong>But</strong> there is another security measure you can take.
                         This is your wallet's seed:
                     </p>
                     <p class="text-center">
                         <h4>
-                            Seed    
+                            Seed
                         </h4>
                         <code id="wallet_seed_reg"></code>
                     </p>
@@ -108,7 +108,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade" id="recover-id-modal" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -134,7 +134,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade" id="import-seed-modal" role="dialog" style="overflow-y:auto;">
         <div class="modal-dialog">
             <!-- Modal content-->
@@ -186,12 +186,12 @@
                         easier to remember from the wallet settings page. If you lose it, it can be recovered if you have access to the email
                         address you have registered with. The wallet under this identifier is stored at our servers encrypted with your password,
                         the one you used to register. If you forget that password you won't be able to decrypt your wallet and as we don't know your password
-                        we won't be able to recover it either. <strong>But</strong> there is another security measure you can take. 
+                        we won't be able to recover it either. <strong>But</strong> there is another security measure you can take.
                         This is your wallet's seed:
                     </p>
                     <p class="text-center">
                         <h4>
-                            Seed    
+                            Seed
                         </h4>
                         <code id="wallet_seed_import"></code>
                     </p>
@@ -211,7 +211,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Send -->
     <div class="modal fade" id="send-modal" role="dialog">
         <div class="modal-dialog">
@@ -226,7 +226,7 @@
                         <div class="form-group">
                             <label for="wid">From</label>
                             <select name="from" id="send-select" class="form-control" style="font-family:monospace">
-            
+
                             </select>
                         </div>
                         <div class="form-group">
@@ -239,7 +239,7 @@
                         </div>
                         <!--
                         <div class="form-group">
-                            <input type="checkbox" name="pow" checked > <a data-toggle="tooltip" data-placement="top" title="Check to generate the PoW needed for the block at RaiWallet servers. It is recommended if you are on a mobile device, if you have to send and receive many blocks or if you are in a rush.">Get PoW remotely</a>
+                            <input type="checkbox" name="pow" checked > <a data-toggle="tooltip" data-placement="top" title="Check to generate the PoW needed for the block at RazeWallet servers. It is recommended if you are on a mobile device, if you have to send and receive many blocks or if you are in a rush.">Get PoW remotely</a>
                         </div>
                         -->
                         <div class="form-group">
@@ -250,7 +250,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- Receive -->
     <div class="modal fade" id="receive-modal" role="dialog">
         <div class="modal-dialog">
@@ -270,7 +270,7 @@
                         <div class="form-group">
                             <label for="wid">My Accounts</label>
                             <select name="from" id="receive-select" class="form-control" style="font-family:monospace">
-            
+
                             </select>
                         </div>
                         <p>Note that the amount below is only used to create the receive QR code. Any amount of XRB sent to the selected address will be credited.</p>
@@ -304,11 +304,11 @@
                     <form role="form" class="form-receive">
                         <p class="text-left">
                             In Nano, representatives act as accounts that cast votes when global network consensus is required. Here, you can choose a representative to vote on your behalf. A list of representatives can be found <a href="https://raiblocks.net/page/representatives" target="_blank">here</a>.
-                        </p>                        
+                        </p>
                         <div class="form-group">
                             <label for="wid">My Accounts</label>
                             <select name="from" id="change-select" class="form-control" style="font-family:monospace">
-            
+
                             </select>
                         </div>
                         <div class="form-group">

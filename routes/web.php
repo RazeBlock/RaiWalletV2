@@ -32,7 +32,7 @@ Route::post('/wallet/login', 'WalletsController@login');
 Route::post('/wallet/recovery', 'WalletsController@recovery');
 Route::post('/wallet/imLoggedIn', 'WalletsController@imLoggedIn');
 Route::get('/resources', function(){
-   return Redirect::to('https://github.com/jaimehgb/RaiWalletV2/'); 
+   return Redirect::to('https://github.com/RazeBlock/razeblock-wallet/');
 });
 
 Route::group(['middleware' => 'auth'], function () {
@@ -49,7 +49,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/wallet/sync', 'WalletsController@sync');
     Route::post('/wallet/broadcast', 'WalletsController@broadcast');
     Route::post('/wallet/rebroadcast', 'WalletsController@rebroadcast');
-    
+
     Route::get('/out', function(){
         Auth::logout();
         return redirect('/');

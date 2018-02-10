@@ -1,9 +1,9 @@
-# RaiWalletV2
+# RazeWallet
 
 <h3>Overview</h3>
 <p>
-    This is a web based wallet for <a href="https://raiblocks.net" target="_blank">RaiBlocks</a><br/><br/>
-    The wallet itself is at <a href="https://github.com/chriscohoat/rai-wallet" target="_blank">rai-wallet</a>. If you want to verify how blocks are created, signed and verified, how accounts are generated, etc ... you should look there. With it you can build your own private and homemade RaiBlocks wallet :D
+    This is a web based wallet for <a href="https://raiblocks.net" target="_blank">RazeBlock</a><br/><br/>
+    The wallet itself is at <a href="https://github.com/chriscohoat/rai-wallet" target="_blank">rai-wallet</a>. If you want to verify how blocks are created, signed and verified, how accounts are generated, etc ... you should look there. With it you can build your own private and homemade RazeBlock wallet :D
     <br/><br/>
     At <code>js/custom.js</code> you can find like the "Middleware" between the Wallet and the GUI. It also contains all the queries made to the server to request PoW, info about accounts and transactions, etc ...
     <br/><br/>
@@ -13,9 +13,9 @@
 
 <hr/>
 
-<h3>How is it built into RaiWallet.com</h3>
+<h3>How is it built into RazeWallet.com</h3>
 <p>
-    At <a href="http://raiwallet.com/" target="_blank">RaiWallet</a> the server is only used to store the users' wallets (ciphered), to provide information about the network to them, and to generate PoW. When a user signs up, a random identifier is generated to store the user wallet under it, but the wallet is created at the browser (seeds, keys, accounts, transactions, signatures, everything ... ). Once the user is done with the wallet, it is ciphered (AES256) with his password, still at the browser, and then the ciphered wallet is sent to the server to store it. Someone with access to the database wouldn't be able to find users' keys (if passwords are strong enough and haven't been leaked by their owners).
+    At <a href="http://raiwallet.com/" target="_blank">RazeWallet</a> the server is only used to store the users' wallets (ciphered), to provide information about the network to them, and to generate PoW. When a user signs up, a random identifier is generated to store the user wallet under it, but the wallet is created at the browser (seeds, keys, accounts, transactions, signatures, everything ... ). Once the user is done with the wallet, it is ciphered (AES256) with his password, still at the browser, and then the ciphered wallet is sent to the server to store it. Someone with access to the database wouldn't be able to find users' keys (if passwords are strong enough and haven't been leaked by their owners).
 </p>
 
 <hr/>

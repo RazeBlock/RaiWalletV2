@@ -11,7 +11,7 @@
                         <div class="row">
                             <div class="col-xs-8">
                                 <img src="img/raiwalletlogo.png" class="img-responsive pay-logo" />
-                                <h3 class="logo-name">RAIWALLET</h3>
+                                <h3 class="logo-name">RAZEWALLET</h3>
                             </div>
                             <div class="col-xs-4">
                                 <p class="price">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 pay-form">
-                        <h3>Pay with RaiWallet</h3>
+                        <h3>Pay with RazeWallet</h3>
                         <form method="post">
                             <div class="form-group">
                                 <input type="text" id="identifier" name="identifier" class="form-control" placeholder="Alias or Identifier"  value="{{$user->identifier}}" />

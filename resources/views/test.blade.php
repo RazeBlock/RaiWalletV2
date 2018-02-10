@@ -19,7 +19,7 @@
                                     <input type="hidden" name="amount" value="2" />
                                     <button type="submit" class="btn-default btn">
                                         <img src="img/raiwalletlogo.png" class="img-responsive pay-logo" />
-                                        <h3 class="logo-name">RaiWallet Pay</h3>
+                                        <h3 class="logo-name">RazeWallet Pay</h3>
                                     </button>
                                 </form>
                             </div>
